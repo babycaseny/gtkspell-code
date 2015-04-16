@@ -35,7 +35,13 @@ msgstr "将“%s”添加至词典"
 #. - Ignore All
 #: ../gtkspell/gtkspell.c:399
 msgid "Ignore All"
-msgstr "全部忽略"
+msgstr "全部略過"
+
+#. For the situation where no language is active (i.e.
+#. * spell->priv->lang == NULL), create a "None" item which is active.
+#: ../gtkspell/gtkspell.c:583
+msgid "None"
+msgstr "没有"
 
 #. on top: language selection
 #: ../gtkspell/gtkspell.c:494
